@@ -66,3 +66,18 @@ body{
     color: white;
     font-family:'Courier New', Courier, monospace;
 }
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    a{
+        color: #476c65;
+        text-decoration: none;
+        font-size: 50px;
+        margin: 10px;
+    }
+}
