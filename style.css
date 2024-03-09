@@ -1,0 +1,68 @@
+@font-face {
+    font-family: TLOU;
+    src: url(TLOU.ttf);
+  }
+
+* {
+    margin-bottom: 10px
+  }
+
+audio::-webkit-media-controls-panel{
+    background-color: #476c65
+}
+
+body{
+    background-color: #161c1b; 
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+}
+
+.container img{
+    width: 100%;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.myhead{
+    font-family: TLOU;
+    font-size: 128px;
+}
+
+.galleryContainer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    object-fit: cover; 
+    height: 150px;
+    opacity: 35%;
+}
+
+.gallery img:hover {
+    opacity: 100%;
+}
+
+.blurb{
+    text-align: center;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
